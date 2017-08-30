@@ -1,0 +1,10 @@
+body
+  form(action='/add_item', method='POST')
+    p
+      | Item Name: 
+      input(type='text', name='itemName', value='')
+      |          Item Cost: 
+      input(type='text', name='itemCost', value='')
+      |          Inventory Amount: 
+      input(type='number', name='inventoryAmount', value='')
+    input(type='submit', value='Submit')

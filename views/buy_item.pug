@@ -1,0 +1,12 @@
+
+ul
+  each val in myItems
+    li= val.name
+    li= val.cost 
+    li= val.inventory
+    p
+      input(type='text', name='inventoryAmount', value='')
+    input(type='submit', value='Submit')
+
+
+
